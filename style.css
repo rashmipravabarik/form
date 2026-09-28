@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+/* Form Container */
+form {
+    background-color: #ffffff;
+    padding: 30px 35px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin: 0 0 25px;
+    font-size: 28px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #334155;
+    font-size: 15px;
+}
+
+/* Input and Textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 11px 12px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input focus */
+input:focus,
+textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: #94a3b8;
+}
+
+/* Message box */
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Button */
+button {
+    display: block;
+    margin: 5px auto 0;
+    width: 45%;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    padding: 11px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background: linear-gradient(135deg, #1e40af, #172554);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(30, 64, 175, 0.3);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    form {
+        padding: 25px 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 60%;
+    }
+}
+
+
+
+
+
+
